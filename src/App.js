@@ -1,9 +1,15 @@
+import Header from './components/Header';
 import './style/index.css';
+import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <header>
+        <Header title="The Fantanstic Cats" />
+      </header>
+      <Banner />
+    </>
   );
 }
 
