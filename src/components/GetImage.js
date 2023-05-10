@@ -1,11 +1,10 @@
 
 function GetImage(props) {
   return (
-    <div>
+    <div className="gallery">
       {props.image.map(image => (
       <figure key={image.name} className="detail">
         <img alt={image.name} src={image.url} />
-        <p>{image.name}</p>
       </figure>
     ))}
     </div>

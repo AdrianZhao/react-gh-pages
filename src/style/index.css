@@ -157,3 +157,19 @@ header {
 .dark:hover span {
   color: #ee8232;
 }
+.galleryWrapper {
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ee8232;
+  font-size: 50px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
