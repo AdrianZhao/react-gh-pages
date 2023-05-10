@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import './style/index.css';
 import Banner from './components/Banner';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -8,7 +9,13 @@ function App() {
       <header>
         <Header title="The Fantanstic Cats" />
       </header>
-      <Banner />
+      <main>
+        <Banner />
+        <Gallery />
+      </main>
+      <footer>
+        
+      </footer>
     </>
   );
 }
