@@ -173,3 +173,9 @@ header {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
+.gallery .image {
+  border-radius: 10px;
+}
+.gallery .image:hover {
+  scale: 1.1;
+}
