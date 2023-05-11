@@ -6,7 +6,10 @@ class Header extends Component {
     return (
       <header>
         <div className='container flexbox'>
-          <h1>{title}</h1>
+          <div className='header-title'>
+            <i className="ph-light ph-cat"></i>
+            <h1>{title}</h1>
+          </div>
           <ul>
             <li><p>My Cats</p></li>
             <li><p>Cats Gallery</p></li>
